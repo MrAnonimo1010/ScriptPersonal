@@ -7,22 +7,22 @@ else
 mkdir /root
 fi
 cd /root/
-if [[ -e /bin/instalacion N°1 ]]; then
+if [[ -e /bin/instalacion1 ]]; then
 instalar
 exit
 sleep 4s
 else
- if [[ -e /bin/instalacion N°2 ]]; then
+ if [[ -e /bin/instalacion2 ]]; then
 instalar
 exit
 sleep 4s
 else
-  if [[ -e /bin/instalacion N°3 ]]; then
+  if [[ -e /bin/instalacion3 ]]; then
 instalar
 exit
 sleep 4s
 else
-   if [[ -e /bin/instalacion N°4 ]]; then
+   if [[ -e /bin/instalacion4 ]]; then
 instalar
 exit
 sleep 4s
