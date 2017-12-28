@@ -61,7 +61,7 @@ class SimpleHTTPProxyHandler(BaseHTTPRequestHandler):
             conn = socket.create_connection(address)
         except socket.error:
             return
-        self.send_response(200, '<font color="red">PROXY SOCKS</font> <font color="blue">~MR--ANONIMO~</font>')
+        self.send_response(200, '<font color="red">PROXY SOCKS</font> <font color="blue">#SCRIPTMANAGER</font>')
         self.send_header('Connection', 'close')
         self.end_headers()
 
