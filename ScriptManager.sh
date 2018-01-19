@@ -766,7 +766,7 @@ verb 3
 
 	echo ""
 
-	echo "El certificado de usuario de $ CLIENT está disponible en ~ / $ CLIENT.ovpn"
+	echo "El certificado de usuario de $CLIENT está disponible en ~/$CLIENT.ovpn"
 
 	echo "Si desea agregar más usuarios, simplemente ejecute este script de nuevo."
 
