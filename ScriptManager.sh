@@ -362,7 +362,7 @@ else
 
 	echo "En qué puerto desea ejecutar OpenVPN?"
 
-	read -p "Porta: " -e -i 8053 PORT
+	read -p "Puerto: " -e -i 8053 PORT
 
 	echo ""
 
