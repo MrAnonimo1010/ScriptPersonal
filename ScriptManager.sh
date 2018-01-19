@@ -356,7 +356,7 @@ else
 
 	echo "Primero necesito saber la dirección IPv4 de la interfaz de red externa de su servidor."
 
-	read -p "Endereço IP: " -e -i $IP IP
+	read -p "Dirección IP: " -e -i $IP IP
 
 	echo ""
 
