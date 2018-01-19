@@ -725,33 +725,19 @@ crl-verify crl.pem" >> /etc/openvpn/server.conf
 	echo "client
 
 dev tun
-
 proto tcp-client
-
 sndbuf 0
-
 rcvbuf 0
-
 remote $IP $PORT
-
 resolv-retry infinite
-
 nobind
-
 persist-key
-
 persist-tun
-
 remote-cert-tls server
-
 cipher AES-128-CBC
-
 comp-lzo no
-
 setenv opt block-outside-dns
-
 key-direction 1
-
 verb 3
 
 " > /etc/openvpn/client-common.txt
