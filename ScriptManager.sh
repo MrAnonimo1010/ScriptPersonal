@@ -706,7 +706,6 @@ crl-verify crl.pem" >> /etc/openvpn/server.conf
 	# client-common.txt is created so we have a template to add further users later
 
 	echo "client
-
 dev tun
 proto tcp-client
 sndbuf 0
