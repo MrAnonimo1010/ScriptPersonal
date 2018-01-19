@@ -475,25 +475,15 @@ else
 	echo "port $PORT
 
 proto tcp-server
-
 dev tun
-
 sndbuf 0
-
 rcvbuf 0
-
 ca ca.crt
-
 cert server.crt
-
 key server.key
-
 dh dh.pem
-
 tls-auth ta.key 0
-
 topology subnet
-
 server 10.8.0.0 255.255.255.0
 
 ifconfig-pool-persist ipp.txt" > /etc/openvpn/server.conf
@@ -559,19 +549,12 @@ ifconfig-pool-persist ipp.txt" > /etc/openvpn/server.conf
 	echo "keepalive 10 120
 
 cipher AES-128-CBC
-
 comp-lzo no
-
 user nobody
-
 group $GROUPNAME
-
 persist-key
-
 persist-tun
-
 status openvpn-status.log
-
 verb 3
 
 crl-verify crl.pem" >> /etc/openvpn/server.conf
@@ -723,6 +706,7 @@ crl-verify crl.pem" >> /etc/openvpn/server.conf
 	# client-common.txt is created so we have a template to add further users later
 
 	echo "client
+
 dev tun
 proto tcp-client
 sndbuf 0
