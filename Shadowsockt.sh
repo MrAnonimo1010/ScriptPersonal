@@ -26,9 +26,9 @@ echo "#############################################################"
 
 echo "# One click Install Shadowsocks-Python server #"
 
-echo "# Intro: https://t.me/Mr_Anonimo/342.html #"
+echo "# Intro: https://t.me/Mr_Anonimo/ #"
 
-echo "# Author: MR ANONIMO <i@Mr_Anonimo> #"
+echo "# Author: Mr Anonimo <@Mr_Anonimo> #"
 
 echo "# Github: https://github.com/MrAnonimo1010/ScriptPersonal #"
 
@@ -300,7 +300,7 @@ fi
 
 echo "Please enter password for shadowsocks-python"
 
-read -p "(Default password: teddysun.com):" shadowsockspwd
+read -p "(Default password: MrAnonimo):" shadowsockspwd
 
 [ -z "${shadowsockspwd}" ] && shadowsockspwd="https://Telegram.me/Mr_Anonimo"
 
